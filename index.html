@@ -1,35 +1,339 @@
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipin Ghimire | Portfolio</title>
 </head>
 
 <body>
 
-<h1>About Me</h1>
+    <header>
 
-<p>
-My name is Bipin Ghimire. I am a student and a beginner web developer
-from Bhaktapur, Nepal. I am interested in information technology,
-programming, and web development. I enjoy learning new technologies
-and creating simple and useful websites. I have basic knowledge of
-HTML, CSS, and JavaScript. I am hardworking, creative, and always
-trying to improve my technical skills. My goal is to become a
-successful software developer and build useful applications in the future.
-</p>
+        <img src="images/logo.png"
+             alt="Bipin Ghimire Logo"
+             width="80">
 
-<h1>Contact</h1>
+        <h1>Bipin Ghimire</h1>
 
-<p>Email: bipinghimire741@gmail.com</p>
+        <p>Student | Beginner Web Developer</p>
 
-<h1>My Skills</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-<p>HTML, CSS, JavaScript</p>
+    </header>
 
-<h1>My Projects</h1>
+    <main>
 
-<p>Portfolio Website, E-Commerce Website</p>
+        <section id="home">
+
+            <h2>Home</h2>
+
+            <p>
+                Welcome to my personal portfolio website.
+            </p>
+
+            <p>
+                I am Bipin Ghimire, a BIT student and beginner web developer.
+            </p>
+
+        </section>
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <img src="images/pp.jpeg"
+                 alt="Profile photo of Bipin Ghimire"
+                 width="200">
+
+            <p>
+                I am Bipin Ghimire, a student and a beginner web developer
+                from Bhaktapur, Nepal. I am interested in information
+                technology, programming, and web development.
+            </p>
+
+            <p>
+                I enjoy learning new technologies and creating simple
+                and useful websites. I have basic knowledge of HTML,
+                CSS, and JavaScript. I am hardworking, creative, and
+                always trying to improve my technical skills.
+            </p>
+
+        </section>
+
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <dl>
+
+                <dt>HTML</dt>
+                <dd>
+                    Hypertext Markup Language used to create the structure
+                    of web pages.
+                </dd>
+
+                <dt>CSS</dt>
+                <dd>
+                    Cascading Style Sheets used to design and format
+                    web pages.
+                </dd>
+
+                <dt>JavaScript</dt>
+                <dd>
+                    A programming language used to add functionality
+                    to websites.
+                </dd>
+
+                <dt>Git and GitHub</dt>
+                <dd>
+                    Tools used for source code management and
+                    project hosting.
+                </dd>
+
+            </dl>
+
+        </section>
+
+        <section id="projects">
+
+            <h2>My Projects</h2>
+
+            <article>
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    I created a personal portfolio website to introduce
+                    myself and showcase my skills, education, and projects.
+                    This project helped me understand the basic structure
+                    of HTML and semantic HTML5 elements.
+                </p>
+
+                <p>
+                    <a href="https://github.com/ghimirebipin741-arch/My-Portfolio"
+                       target="_blank">
+                        View Portfolio Repository
+                    </a>
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>E-Commerce Website</h3>
+
+                <p>
+                    I created a simple e-commerce website for displaying
+                    products and providing users with basic information
+                    about products and online shopping.
+                </p>
+
+                <p>
+                    <a href="https://github.com/yourusername/e-commerce-website"
+                       target="_blank">
+                        View E-Commerce Repository
+                    </a>
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>Futsal Booking System</h3>
+
+                <p>
+                    I am developing a Futsal Booking System that allows
+                    users to search for futsal courts, check availability,
+                    and book a court for a selected date and time.
+                    Users can also manage bookings and provide ratings
+                    and reviews.
+                </p>
+
+                <p>
+                    <a href="https://github.com/yourusername/futsal-booking-system"
+                       target="_blank">
+                        View Futsal Booking Repository
+                    </a>
+                </p>
+
+            </article>
+
+        </section>
+
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <table border="1">
+
+                <caption>My Educational Qualifications</caption>
+
+                <thead>
+
+                    <tr>
+                        <th>S.N.</th>
+                        <th>Level</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>SEE</td>
+                        <td>Vajra Academy</td>
+                        <td>2020</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>+2</td>
+                        <td>Seabird International College</td>
+                        <td>2023</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Bachelor of Information Technology</td>
+                        <td>Model Institute of Technology</td>
+                        <td>Running</td>
+                        <td>Currently Studying</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>
+                Phone:
+                <a href="tel:+9779840506901">
+                    +977 9840506901
+                </a>
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:ghimirebipin741@gmail.com">
+                    ghimirebipin741@gmail.com
+                </a>
+            </p>
+
+            <p>
+                Location: Bhaktapur, Nepal
+            </p>
+
+            <h3>Social Media</h3>
+
+            <p>
+
+                <a href="mailto:ghimirebipin741@gmail.com">
+                    <img src="https://img.icons8.com/color/48/gmail-new.png"
+                         alt="Gmail"
+                         width="50"
+                         height="50">
+                </a>
+
+                <a href="https://www.linkedin.com/in/bipin-ghimire-081626366/"
+                   target="_blank">
+                    <img src="https://img.icons8.com/color/48/linkedin.png"
+                         alt="LinkedIn"
+                         width="50"
+                         height="50">
+                </a>
+
+                <a href="https://www.facebook.com"
+                   target="_blank">
+                    <img src="https://img.icons8.com/color/48/facebook-new.png"
+                         alt="Facebook"
+                         width="50"
+                         height="50">
+                </a>
+
+            </p>
+
+            <h3>Send Me a Message</h3>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="name">
+                        Name:
+                    </label>
+
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           required>
+                </p>
+
+                <p>
+                    <label for="email">
+                        Email:
+                    </label>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           required>
+                </p>
+
+                <p>
+                    <label for="message">
+                        Message:
+                    </label>
+
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              cols="40"
+                              required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">
+                        Submit
+                    </button>
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Bipin Ghimire. All rights reserved.
+        </p>
+
+    </footer>
 
 </body>
+
 </html>
 ```
